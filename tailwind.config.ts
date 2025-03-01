@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        valorant: ['"VALORANT-FONT"', 'serif'],
+        josefin: ['"JosefinSans-FONT"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

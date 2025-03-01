@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@font-face {
+  font-family: "VALORANT-FONT";
+  src: url("/VALORANT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSans-FONT";
+  src: url("/JosefinSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
