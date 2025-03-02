@@ -58,8 +58,8 @@ const SkillsComponent = () => {
                     {skills.map((skill) => (
                         <li key={skill.name}>
                             <div className="flex items-center gap-x-4 sm:gap-x-6">
-                                <img
-                                    className="h-12 w-12 sm:h-16 sm:w-16"
+                                <img draggable={"false"}
+                                    className="h-12 w-12 sm:h-16 sm:w-16 hover:scale-105 transition-transform duration-300 ease-in-out"
                                     src={skill.imageUrl || "/placeholder.svg"}
                                     alt={`${skill.name} logo`}
                                 />
